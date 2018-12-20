@@ -22,5 +22,5 @@ import sys
 !{sys.executable} -m pip install kaggle
 ```
 
-Then download the Kaggle the dataset using ``!kaggle competitions download -c instacart-market-basket-analysis
+Then download the Kaggle instacart dataset using ``!kaggle competitions download -c instacart-market-basket-analysis
 `` inside the Jupyter notebook.
