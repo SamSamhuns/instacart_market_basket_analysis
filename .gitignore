@@ -12,6 +12,7 @@ csv_src/
 
 # MacOS system info files
 *.DS_Store
+_MACOSX/
 
 # Distribution / packaging
 .Python
