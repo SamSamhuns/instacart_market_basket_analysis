@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore all CSV files
+*.csv
+csv_src/
+
 # MacOS system info files
 *.DS_Store
 
