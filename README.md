@@ -9,17 +9,16 @@ Detailed instructions to use install and use the API available at
 
 ### Usage in Jupyter Notebook
 
-WARNING Installs System wide.
-
-To install the kaggle package in the notebook.
-
-Download API key from Kaggle, from Accounts - Create New Api Token. Then
+- Download API key from Kaggle, from Accounts - Create New Api Token. Then
 move the downloaded kaggle.json to ``~/.kaggle/``.
 
-To import the Kaggle API in the current Jupyter kernel env, add this
-line of code to the top of the notebook.
+- To import the Kaggle API in the current Jupyter kernel env, add this
+line of code to the top of the notebook. (WARNING Installs System wide)
 
 ```python
 import sys
 !{sys.executable} -m pip install kaggle
 ```
+
+Then download the Kaggle the dataset using ``!kaggle competitions download -c instacart-market-basket-analysis
+`` inside the Jupyter notebook.
