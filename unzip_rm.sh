@@ -1,3 +1,4 @@
+#!/bin/sh
 unzip aisles.csv.zip
 unzip departments.csv.zip
 unzip orders.csv.zip
